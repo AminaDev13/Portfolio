@@ -9,7 +9,7 @@ import Skills from "@/components/Skills";
 export default function Home() {
 
   return (
-<main className="min-h-screen bg-gradient-to-br from bg-[#301c49] to-[#140a21] text-white font-sans">
+<main className="min-h-screen bg-gradient-to-br from bg-[#491c1c] to-[#140a21] text-white font-sans">
 <Navbar/>
 <Hero />
 <Skills/>

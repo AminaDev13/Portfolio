@@ -8,7 +8,7 @@ export default function Skills() {
         {skills.map((skill) => (
           <span
             key={skill}
-            className="px-4 py-2 bg-blue-700 rounded-full hover:bg-blue-600 transition"
+            className="px-4 py-2 bg-gray-800 rounded-full hover:bg-blue-600 transition"
           >
             {skill}
           </span>

@@ -5,13 +5,13 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Skapar ett tillstånd för att hålla reda på om menyn är öppen eller stängd.
 
   return (
-    <header className="flex gap-8  items-center p-6 bg-purple-950 text-white relative">
+    <header className="flex gap-6  items-center p-10 bg-pink-950 text-white relative">
       
       {/* Ladda ner CV-knappen */}
       <a
         href="/cv/mycv1.pdf"
         download
-        className="px-4 py-2 bg-blue-700 hover:bg-blue-600 rounded-lg transition transform hover:scale-105"
+        className="px-4 py-2 bg-amber-900 hover:bg-fuchsia-950 rounded-lg transition transform hover:scale-105"
       >
         Ladda ner CV
       </a>
