@@ -11,7 +11,7 @@
 
 export default function Footer() {
   return (
-    <footer className="text-center py-8 text-gray-400">
+    <footer className="text-center py-8 text-gray-500">
       © 2025 Amina. Alla rättigheter förbehållna.
     </footer>
   );

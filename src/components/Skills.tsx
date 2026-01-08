@@ -1,4 +1,16 @@
-const skills = ["HTML", "CSS", "Tailwind", "JavaScript", "TypeScript", "React", "Next.js", "Prisma", " PostgreSQL"]
+const skills = [
+  "HTML",
+  "CSS",
+  "Tailwind",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Prisma",
+  "Zod",
+  "Better-Auth",
+  "PostgreSQL",
+];
 
 export default function Skills() {
   return (
@@ -8,7 +20,7 @@ export default function Skills() {
         {skills.map((skill) => (
           <span
             key={skill}
-            className="px-4 py-2 bg-gray-800 rounded-full hover:bg-blue-600 transition"
+            className="px-4 py-2 bg-gray-400 rounded-full hover:bg-blue-200 transition"
           >
             {skill}
           </span>
