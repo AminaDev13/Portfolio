@@ -12,7 +12,7 @@ export default function Navbar() {
         download
         className="px-4 py-2 bg-amber-300 hover:bg-fuchsia-200 rounded-lg transition transform hover:scale-105"
       >
-        Ladda ner CV
+        Download CV
       </a>
 
       {/* Hamburgermeny-knapp för mobilen */}
@@ -57,28 +57,28 @@ export default function Navbar() {
           className="text-slate-700 hover:text-blue-600 transition"
           onClick={() => setIsMenuOpen(false)}
         >
-          Om mig
+          About Me
         </a>
         <a
           href="#skills"
           className="text-slate-700 hover:text-blue-600 transition"
           onClick={() => setIsMenuOpen(false)}
         >
-          Erfarenheter
+          Experience
         </a>
         <a
           href="#projects"
           className="text-slate-700 hover:text-blue-600 transition"
           onClick={() => setIsMenuOpen(false)}
         >
-          Projekt
+          Projects
         </a>
         <a
           href="#contact"
           className="text-slate-700 hover:text-blue-600 transition"
           onClick={() => setIsMenuOpen(false)}
         >
-          Kontakt
+          Contact
         </a>
       </nav>
     </header>

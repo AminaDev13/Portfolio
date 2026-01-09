@@ -2,29 +2,28 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Trafikskola DRV",
-    description:
-      "Modern e-handels- och kataogplattform för film byggd med Next.js 15 (App Router). Den demonstrerar produktionsmönster för datamodellering, autentiserade flöden, effektiv rendering, design av tillgängliga komponenter och komponerbara serveråtgärder.",
+    title: "Learning game",
+
     longDescription:
-      "En hemsida byggd med Next.js och React–komponentstruktur med återanvändbara UI–element. Har SEO optimering och responsiv design anpassad för desktop och mobil.",
+      " Guess the number is a web-based children's game that trains numbers and logical thinking through simple, interactive guesses (1–10).",
+    image: "/image/game.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/AminaDev13/Gissa-spel",
+    //demo: "https://demo.com",
+  },
+  {
+    title: "Driving School Website",
+    longDescription:
+      "A website built with Next.js and React component structure with reusable UI elements. Has SEO optimization and responsive design adapted for desktop and mobile.",
     image: "/image/mockup-drv.png",
     tech: ["Next.js", "React", "TypeScript", "Tailwind"],
     github: "https://github.com/AminaDev13/myapp2",
-  },
-  {
-    title: "Todo App",
-    description: "En enkel men kraftfull todo-applikation.",
-    longDescription:
-      "En CRUD-applikation där användare kan skapa, uppdatera och ta bort tasks. Byggd med React och localStorage.",
-    image: "/projects/project-2.png",
-    tech: ["React", "JavaScript", "CSS"],
-    github: "https://github.com/dittnamn/todo-app",
+    //  demo: "https://demo.com",
   },
   {
     title: "E-commerce UI",
-    description: "Frontend för en e-handelsplattform.",
     longDescription:
-      "Ett grupparbete som demonstrerar produktionstänk inom modern webbutveckling. Applikationen hanterar komplexa dataflöden mellan en SQL-databas och ett Next.js 15-frontend.",
+      "A group project that demonstrates production thinking in modern web development. The application handles complex data flows between a SQL database and a Next.js 15 frontend.",
     image: "/image/b-movies mockup.png",
     tech: [
       "Next.js",
@@ -38,6 +37,7 @@ const projects = [
       "Shadcn UI",
     ],
     github: "https://github.com/dittnamn/ecommerce-ui",
+    // demo: "https://demo.com",
   },
 ];
 
@@ -102,7 +102,7 @@ export default function Projects() {
                   GitHub
                 </a>
 
-                {project.demo && (
+                {/* {project.demo && (
                   <a
                     href={project.demo}
                     target="_blank"
@@ -110,8 +110,8 @@ export default function Projects() {
                     className="text-slate-700 hover:text-slate-900 underline"
                   >
                     Live Demo
-                  </a>
-                )}
+                  </a> */}
+                {/* )} */}
               </div>
             </div>
           </article>

@@ -9,15 +9,15 @@ export default function Hero() {
       {/* Text */}
       <div>
         <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-          Hej, jag är <span className="text-amber-500">Amina</span>
+          Hi, I am <span className="text-amber-500">Amina</span>
         </h1>
 
         <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-          Jag är en passionerad frontend-utvecklare med en stark drivkraft att
-          bygga vackra och intuitiva användarupplevelser.Jag skapar effektiva
-          och prestandaoptimerade webbapplikationer som imponerar. Jag brinner
-          för att lösa komplexa problem och är alltid redo att bidra med nya
-          idéer för att driva projekt framåt. .
+          I am a passionate full-stack developer with a strong drive to build
+          beautiful and intuitive user experiences. I create efficient and
+          performance-optimized web applications that impress. I am passionate
+          about solving complex problems and am always ready to contribute new
+          ideas to drive projects forward.
         </p>
 
         {/* Call to action */}
@@ -26,14 +26,14 @@ export default function Hero() {
             href="#projects"
             className="px-6 py-3 bg-amber-300 text-black rounded-lg hover:bg-amber-600 transition"
           >
-            Se projekt
+            See project
           </a>
 
           <a
             href="#contact"
-            className="px-6 py-3 border border-slate-300 text-slate-700 rounded-lg hover:border-amber-600 hover:text-white-600 transition font-weight: 700"
+            className="px-6 py-3 border border-slate-300 text-slate-700 rounded-lg hover:border-amber-600 hover:text-white transition font-bold"
           >
-            Kontakta mig
+            Contact Me
           </a>
         </div>
       </div>
