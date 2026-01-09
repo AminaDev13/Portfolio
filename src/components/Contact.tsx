@@ -26,7 +26,7 @@ export default function Contact() {
         />
       </div>
       <div>
-        <h2 className="text-3xl font-bold mb-4">Kontakta mig</h2>
+        <h2 className="text-3xl font-bold mb-4">Contact me</h2>
         <p className="mb-2">📧 amina.balieva@yahoo.com</p>
         <p className="mb-2">📱 +46 73 599 20 26</p>
         <p>🌍 Linköping, Sverige</p>

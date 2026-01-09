@@ -45,7 +45,7 @@ export default function Projects() {
   return (
     <section id="projects" className="container mx-auto px-6 py-24">
       <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12">
-        Projekt
+        Projects
       </h2>
 
       <div className="grid gap-10 md:grid-cols-3">
