@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function Hero() {
   return (
     <section
@@ -41,7 +40,7 @@ export default function Hero() {
       {/* Bild */}
       <div className="flex justify-center">
         <Image
-          src="/profile-picture.jpg"
+          src="image/profile-picture.jpg"
           alt="Profilbild"
           width={420}
           height={420}
