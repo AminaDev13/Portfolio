@@ -18,7 +18,7 @@ export default function Contact() {
     >
       <div className="flex justify-center">
         <Image
-          src="/profile-picture.jpg"
+          src="/image/profile-picture.jpg"
           alt="Kontaktbild"
           className="w-48 h-48 object-cover rounded-md shadow-lg"
           height={50}
